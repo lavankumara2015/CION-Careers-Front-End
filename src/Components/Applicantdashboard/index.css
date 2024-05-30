@@ -1,0 +1,283 @@
+
+  
+  @media screen and (min-width: 768px) {
+    
+
+    .dashBoard {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.65rem 0.5rem;
+      align-items: center;
+      text-align: center;
+  }
+  
+  .dashBoard > h5 {
+      color: var(--brandClr);
+      padding-top: 0.5rem;
+  }
+
+  .dashBoard > p {
+      color: var(--brandClr);
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-left: 1rem;
+  }
+  
+  .spinner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 6rem;
+  }
+  
+  .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.38rem;
+      padding: 0.38rem;
+      justify-content: center;
+      font-size: 0.35rem;
+   
+  }
+  .cards{
+    border: 0.018rem solid #ccc;
+    border-radius: 0.094rem;
+    padding: 0.188rem;
+    margin: 0.188ren;
+    cursor: pointer;
+    width: 8.22rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.075rem;
+    box-shadow: 0 0.0377rem 0.41rem 0 rgba(0, 0, 0, 0.07);
+    border: none;
+    }
+  .card-content p {
+      margin: 0.23rem 0;
+  }
+  .card-content h4{
+    color: var(--brandClr);
+    text-align: center;
+    font-size: 0.45rem;
+    margin-bottom: 0.35rem;
+  }
+  
+  .card-content p strong {
+      display: inline-block;
+      width: 2.26rem;
+      font-weight: 700;
+      color: var(--brandClr);
+  }
+  .dashBoard-container__profileIcon{
+    background-color: var(--brandClr);
+    border-radius: 50%;
+    color: white;
+    width: 1.125rem;
+    height: 1.125rem;
+    cursor: pointer;
+  }
+  .dashBoard-container__profileIcon>p{
+  font-size: 0.7rem;
+  text-align: center;
+  position: relative;
+  top: 0.1rem;
+  right: 0.02rem;
+  font-weight: 500;
+  }
+  .dashBoard-container__input{
+    padding: 0.2rem;
+    width: 5rem;
+    padding-left: 0.85rem;
+    border: 0.025rem solid var(--brandClr);
+    border-radius: 0.1rem;
+    outline: none;
+  }
+  .material-symbols-outlined{
+    color: var(--brandClr);
+    position: relative;
+    left: 1.65rem;
+  }
+    
+  .dashBoard-container__btn {
+    padding: 0.18rem;
+    background-color: var(--brandClr);
+    color: white;
+    border: none;
+    font-size: 0.45rem;
+    border-radius: 0.1rem;
+    cursor: pointer;
+    z-index: 9999;
+    font-weight: 500;
+
+}
+.dashBoard-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 10rem;
+  position: fixed;
+  left: 26rem;
+  top: 0.45rem;
+  z-index: 9999;
+  /* position: sticky;
+  float: right;
+  bottom: 15rem !important;
+  z-index: 9999;
+  right: 0.5rem;
+  top:0rem; */
+}
+.dot{
+  width: 0.25rem !important;
+  height: 0.25rem !important;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.1rem;
+}
+.ProfileDetailsBtn{
+  padding: 0.18rem;
+  background-color: var(--brandClr);
+  color: white;
+  border: none;
+  font-size: 0.45rem;
+  border-radius: 0.1rem;
+  cursor: pointer;
+  z-index: 9999;
+  font-weight: 500;
+  position: fixed;
+  left: 33.5rem;
+  top: 0.55rem;
+  
+}
+.ProfileDetailsBtn+h5{
+  color: var(--brandClr);
+  text-align: center;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.ag-root-wrapper {
+  width: 97%;
+  height: 8.4rem !important;
+  margin-left: 0.5rem;
+  border: solid 1px #000 !important;
+  border-radius: 0rem !important;
+  
+}
+
+.ag-header-cell{
+background-color: var(--brandClr);
+color: white;
+font-size: 0.4rem;
+font-size: 0.47rem !important;
+border: solid 1px #000 !important;
+font-weight: 500 !important;
+border-bottom: none !important ;
+
+}
+.ag-ltr .ag-cell {
+  color: #000 !important;
+  font-size: 0.40rem !important;
+  border: solid 1px #000 !important;
+  font-weight: 500 !important;
+  
+}
+.ag-theme-quartz, .ag-theme-quartz-dark {
+  --ag-background-color: #f9f9f9 !important;
+  --ag-header-background-color: #80288f !important;
+  --ag-border-color: 1px solid #80288f !important;
+  --ag-secondary-border-color: solid 1px #80288f !important;
+  --ag-icon-font-color: #80288f !important;
+  --ag-row-hover-color: rgb(232, 217, 217) !important;
+  --ag-input-border-color: #80288f !important;
+  --ag-input-color: #000 !important;
+}
+.Toastify__toast-container{
+  font-size: 0.5rem;
+    margin-top: 1.5rem;
+}.dashBoard-container__profileIcon {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dashBoard-container__profileMenu {
+  display: none;
+  font-size: 0.45rem;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 3rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+}
+
+.dashBoard-container__profileMenu a {
+  color: var(--brandClr);
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dashBoard-container__profileMenu a:hover {
+  background-color: #f1f1f1;
+}
+.dashBoard-container__profileIcon:hover .dashBoard-container__profileMenu {
+  display: block;
+}
+.patient-details__name-phone-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.patient-details-name-container {
+  display: flex;
+  width: 14.37rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  margin-right: 0.79rem;
+}
+
+.patient-details__name-phone-container > div > label {
+  font-size: 0.45rem;
+  font-weight: 600;
+  width: 4.53rem;
+  margin-right: 0.77rem;
+  color: var(--brandClr);
+  margin-top: 0.3rem;
+}
+
+.patient-details__name-phone-container > div > input {
+  width: 8rem;
+  height: 1.15rem;
+  border: solid 0.5px var(--brandClr);
+  border-radius: 0.11rem;
+  background-color: #f9f9f9;
+  padding-left: 0.39rem;
+  font-size: 0.35rem;
+  font-weight: 600;
+  margin-bottom: 0.73rem;
+}
+
+.patient-details__name-phone-container > div > input:focus {
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.patient-details-phone-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.patient-details__name-phone-container input[type="file"] {
+  padding-top: 0.3rem;
+}
+
+}

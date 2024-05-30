@@ -1,0 +1,171 @@
+
+.footer {
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    height: 1.24rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.footer h1 {
+    font-size: 0.35rem;
+    color: white;
+    position: relative;
+    left: 2.5rem;
+    font-weight: 400;
+}
+
+.footer h1>span {
+  position: absolute;
+  left: -0.28rem;
+  font-size: 0.50rem;
+} 
+
+:root{
+    --bg-main-color: #5d0f7d;
+    --bg-font-color: #666;
+}
+.footer-main-container{
+    display: flex;
+    justify-content: center;
+    font-size: 0.4rem;
+  margin-left: 1.5rem;
+margin-top: 1.5rem;
+}
+.footer-main-container h4{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.footer-our-vision-container{
+    width: 33.3%;
+}
+.footer-main-container a{
+    text-decoration: none;
+    color: var(--bg-font-color);
+    font-weight: 600;
+}
+.our-services-main-container{
+    width: 33.3%;
+}
+.quick-links-main-container{
+    width: 33.3%;
+}
+.footer-main-container ul{
+    list-style-type: none;
+    padding: 0;
+}
+.footer-main-container ul li , .footer-our-vision p{
+    padding: 0.4rem 0 0 0;
+    width: 9rem;
+    color: var(--bg-font-color);
+}
+
+.footer-our-vision h2{
+padding: 0.5rem 0 0.5rem 0;
+border: 0.06rem solid var(--bg-main-color);
+display: flex;
+justify-content: center;
+align-items: center;
+width: 8rem;
+margin-top: 0.5rem;
+
+}
+.footer-main-container span {
+    background-color: var(--bg-main-color);
+    width: 1.4rem;
+    height: 0.09rem;
+    display: block;
+    border-radius: 0.5rem;
+    margin-top: 0.18rem;
+}
+.footer-main-heading-underline{
+    background-color: var(--bg-main-color);
+    width: 0.2rem;
+    height: 0.09rem;
+    display: block;
+    border-radius: 0.5rem;
+    position: relative;
+    left: 1.48rem;
+    bottom: 0.09rem;
+   
+}
+
+.social-media-container img{
+    width: 1.06rem;
+    height: 1.06rem;
+    margin-top: 0.5rem;
+    margin-left: 0.1rem;
+    position: relative;
+    right: 0.1rem;
+
+}
+.footer-cipher-oncology{
+    width: 100%;
+    height: 2.8rem;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.fas b{
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width:768px) {
+   
+    .footer-main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 0.6rem;
+        margin-left: 0.5rem;
+      
+    }
+    .footer-main-container ul li , .footer-our-vision p{
+        padding: 0.7rem 0 0 0;
+        width: 20rem;
+        color: var(--bg-font-color);
+       margin-bottom: 1rem;
+    }
+    .footer-our-vision h2{
+    width: 9rem;
+    }
+    .our-services-main-container{
+        margin-top: 1.5rem;
+    }
+    .quick-links-main-container{
+        margin-top: 1.5rem;
+    }
+    .Social-media-main-container{
+        margin-top: 1rem;
+    }
+    .social-media-container img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .footer-main-heading-underline{
+        background-color: var(--bg-main-color);
+        width: 0.2rem;
+        height: 0.09rem;
+        display: block;
+        border-radius: 0.5rem;
+        position: relative;
+        left: 1.48rem;
+        bottom: 0.09rem;
+    }
+    
+    .footer {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footer h1 {
+        left: unset;
+    }
+}

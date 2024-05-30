@@ -1,0 +1,507 @@
+
+
+  .applicant-container {
+    width: 12rem;
+    height: 12rem;
+    background-color: var(--pinkClr);
+    font-size: 0.45rem;
+    border-radius: 0.1rem;
+  }
+  .applicant-container__h2 ,.RegisterPage-container__h5{
+    color: var(--brandClr);
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0.65rem;
+  }
+  .applicant-container__Link,
+  .applicant-container__Link2 {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--brandClr);
+    cursor: pointer;
+  }
+  .applicant-container__Link {
+    font-size: 0.5rem;
+    position: relative;
+    left: 5.5rem;
+    bottom: 0.3rem;
+    width: 5rem !important;
+  }
+  .applicant-container__small {
+    position: relative;
+    font-size: 0.5rem;
+    left: 0.55rem;
+    bottom: 0.2rem;
+  }
+  .applicant-container__submit,.RegisterPage-container__submit {
+    width: 2.5rem !important;
+    color: white;
+    background-color: var(--brandClr);
+    font-size: 0.6rem;
+    cursor: pointer;
+    padding: 0.01rem !important;
+    position: relative;
+    left: 2.75rem;
+    bottom: 1.2rem;
+  }
+  .RegisterPage-container__submit{
+    top: -0.15rem !important;
+ }
+  .applicant-container__h5 {
+    font-weight: 600;
+    font-size: 0.55rem;
+    position: relative;
+    bottom: 1.35rem;
+    margin-left: 0.5rem;
+  }
+  .applicant-container form {
+    margin-left: 1.5rem;
+  }
+  .applicant-container form input ,
+  .RegisterPage-container form input,
+  .forgotPassword-container form input,
+  .resetPassword-container form input{
+    margin: 0.5rem;
+    padding: 0.4rem;
+    width: 8rem;
+    height: 1.15rem;
+    
+}
+  .applicant-container form label ,
+   .RegisterPage-container form label
+   ,.forgotPassword-container form label 
+   ,.resetPassword-container form label{
+    font-size: 0.6rem;
+    position: relative;
+    top: 0.5rem;
+    left: 0.5rem;
+    font-weight: 600;
+  }
+  .RegisterPage-container{
+    width: 13rem;
+    height: 18rem;
+    background-color: var(--pinkClr);
+    font-size: 0.45rem;
+    margin: auto;
+    margin-top: 3.5rem;
+    border-radius: 0.1rem;
+  }
+ 
+.RegisterPage-container form{
+    margin-left: 1.9rem;
+}
+.RegisterPage-container__h6{
+    font-weight: 600;
+    font-size: 0.55rem;
+    position: relative;
+    bottom: 0rem;
+    margin-left: 0rem;
+}
+.RegisterPage-container__Link{
+    text-decoration: none;
+}
+.forgotPassword-container{
+  width: 11rem;
+  height: 7rem;
+  background-color: var(--pinkClr);
+  font-size: 0.45rem;
+  border-radius: 0.1rem;
+}
+.forgotPassword-container__h5,
+.resetPassword-container__h6{
+color: var(--brandClr);
+font-size: 0.75rem;
+text-align: center;
+padding-top: 0.4rem;
+}
+.forgotPassword-container__submit{
+width: 2.5rem !important;
+height: 1rem !important;
+color: white;
+background-color: var(--brandClr);
+font-size: 0.45rem;
+cursor: pointer;
+padding: 0.01rem !important;
+position: relative;
+left: 3rem;
+border: none;
+outline: none;
+border-radius: 0.1rem;
+}
+.forgotPassword-container__small{
+position: relative;
+left: 0.5rem;
+bottom: 0.45rem;
+font-size: 0.45rem;
+}
+.forgotPassword-container form{
+margin-left: 1rem;
+}
+
+.p-inputotp-input {
+  width: 1.2rem !important;
+  height: 1.3rem !important;
+  margin: 0.3rem;
+  text-align: center;
+  position: relative;
+  font-size: 0.50rem;
+  outline: none;
+  left: 1rem;
+  top: 0.3rem;
+  border-radius: 0.1rem;
+  border: 0.005rem solid var(--brandClr);
+}
+.OtpFiled {
+  display: flex;
+  align-items: center;
+  gap: 1rem !important;
+}
+.otpPopup {
+  width: 11rem;
+  height: 8.2rem;
+  position: fixed;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--pinkClr);
+  padding: 0.75rem;
+  border-radius: 0.1rem;
+  box-shadow: 0px 0px 0.13rem rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+.otpPopup__h6{
+  color: var(--brandClr);
+  font-size: 0.6rem;
+  text-align: center;
+  padding-top: 0.4rem;
+}
+
+.forgotPassword-container__validOTP{
+  position: relative;
+  top: 0.5rem;
+  left: 1.24rem;
+  font-weight: 600;
+  font-size: 0.5rem;
+}
+.forgotPassword-container__submitOTP,
+.forgotPassword-container__resendOTP{
+  width: 3.25rem !important;
+  height: 1rem !important;
+  color: white;
+  background-color: var(--brandClr);
+  font-size: 0.5rem;
+  cursor: pointer;
+  padding: 0.01rem !important;
+  position: relative;
+  top: 1.25rem;
+  border: none;
+  border-radius: 0.1rem;
+  margin: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.resetPassword-container{
+  width: 11.85rem;
+  height: 10.1rem;
+  background-color: var(--pinkClr);
+  font-size: 0.45rem;
+  border-radius: 0.1rem;
+}
+
+.resetPassword-container__small{
+  position: relative;
+  left: 0.5rem;
+  bottom: 0.4rem;
+  font-weight: 600;
+  font-size: 0.5rem;
+}
+  .resetPassword-container__submit{
+    width: 3.25rem !important;
+    height: 1rem !important;
+    color: white;
+    background-color: var(--brandClr);
+    font-size: 0.5rem;
+    cursor: pointer;
+    padding: 0.01rem !important;
+    position: relative;
+    left: 2.5rem;
+    border: none;
+    border-radius: 0.1rem;
+    margin: 0.2rem;
+}
+.resetPassword-container form{
+  margin-left: 1.5rem;
+  }
+
+
+@media screen and (min-width: 768px) {
+  
+  .applicant-email-id,
+  .applicant-password {
+    font-size: 0.5rem;
+  }
+  .applicant-container {
+    width: 8.5rem;
+    height: 8.5rem;
+    background-color: var(--pinkClr);
+    font-size: 0.45rem;
+    /* margin: auto; */
+    /* margin-top: 2rem; */
+    border-radius: 0.1rem;
+  }
+  .applicant-container__h2 ,.RegisterPage-container__h5{
+    color: var(--brandClr);
+    font-size: 0.6rem;
+    text-align: center;
+    padding-top: 0.4rem;
+  }
+  .applicant-container__Link,
+  .applicant-container__Link2 {
+    text-decoration: none;
+    font-weight: 600;
+    width: 3rem !important;
+  }
+  .applicant-container__Link {
+    font-size: 0.35rem;
+    position: relative;
+    left: 3.5rem;
+    bottom: 0.3rem;
+  }
+  .applicant-container__small {
+    position: relative;
+    left: 0.3rem;
+    bottom: 0.2rem;
+    font-size: 0.4rem;
+  }
+  .applicant-container__submit {
+    width: 2rem !important;
+    color: white;
+    background-color: var(--brandClr);
+    font-size: 0.4rem;
+    cursor: pointer;
+    padding: 0.01rem !important;
+    position: relative;
+    left: 1.5rem;
+    bottom: 1rem;
+  }
+  .applicant-container__h5 {
+    font-weight: 600;
+    font-size: 0.4rem;
+    position: relative;
+    bottom: 0.9rem;
+    margin-left: unset;
+  }
+  .applicant-container form {
+    margin-left: 1.5rem;
+  }
+
+  .RegisterPage-container{
+    width: 9rem;
+    height: 11rem;
+    background-color: var(--pinkClr);
+    font-size: 0.45rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    border-radius: 0.1rem;
+  }
+  .applicant-container form input {
+    margin: 0.25rem;
+    padding: 0.2rem;
+    width: 5rem;
+    height: 0.85rem;
+    
+}
+  .applicant-container form label {
+    font-size: 0.4rem;
+    position: relative;
+    top: 0.3rem;
+    left: 0.3rem;
+    font-weight: 600;
+  }
+  .RegisterPage-container form label
+  ,.forgotPassword-container form label
+  ,.resetPassword-container form label {
+    font-size: 0.4rem;
+    position: relative;
+    top: 0.2rem;
+    left: 0.2rem;
+    font-weight: 600;
+  }
+  .RegisterPage-container form input 
+  ,.forgotPassword-container form input
+  ,.resetPassword-container form input{
+    margin: 0.15rem;
+    padding: 0.2rem;
+    width: 5rem;
+    height: 0.85rem;
+    
+}
+.RegisterPage-container__submit{
+    width: 2rem !important;
+    color: white;
+    background-color: var(--brandClr);
+    font-size: 0.4rem;
+    cursor: pointer;
+    padding: 0.01rem !important;
+    position: relative;
+    left: 1.5rem;
+    top: 0.2rem !important;
+    
+}
+.RegisterPage-container form 
+,.forgotPassword-container form,
+.resetPassword-container form{
+    margin-left: 1.8rem;
+}
+.RegisterPage-container__h6{
+    font-weight: 600;
+    font-size: 0.4rem;
+    margin-left: unset;
+    position: relative;
+    right: 0.75rem;
+    top: 0.3rem;
+}
+.RegisterPage-container__Link{
+    text-decoration: none;
+}
+  .forgotPassword-container{
+    width: 9rem;
+    height: 5rem;
+    background-color: var(--pinkClr);
+    font-size: 0.45rem;
+    border-radius: 0.1rem;
+  }
+.forgotPassword-container__h5,
+.resetPassword-container__h6{
+  color: var(--brandClr);
+  font-size: 0.6rem;
+  text-align: center;
+  padding-top: 0.4rem;
+}
+.forgotPassword-container__submit{
+  width: 2rem !important;
+  height: 0.85rem !important;
+  color: white;
+  background-color: var(--brandClr);
+  font-size: 0.40rem;
+  cursor: pointer;
+  padding: 0.01rem !important;
+  position: relative;
+  left: 1.5rem;
+  border: none;
+  border-radius: 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.forgotPassword-container__small{
+  position: relative;
+  left: 0.2rem;
+  bottom: 0.2rem;
+  font-size: 0.35rem;
+}
+.p-inputotp-input {
+  width: 1rem !important;
+  height: 1.1rem !important;
+  margin: 0.3rem;
+  text-align: center;
+  position: relative;
+  font-size: 0.50rem;
+  outline: none;
+  left: 1.5rem;
+  top: 0.3rem;
+  border-radius: 0.1rem;
+  border: 0.005rem solid var(--brandClr);
+}
+.OtpFiled {
+  display: flex;
+  align-items: center;
+  gap: 1rem !important;
+}
+.otpPopup {
+  width: 10rem;
+  height: 6.2rem;
+  position: fixed;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--pinkClr);
+  padding: 0.37rem;
+  border-radius: 0.1rem;
+  box-shadow: 0px 0px 0.13rem rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.forgotPassword-container__validOTP{
+  position: relative;
+  top: 0.15rem;
+  left: 1.8rem;
+  font-weight: 600;
+  font-size: 0.35rem;
+}
+.forgotPassword-container__submitOTP,
+.forgotPassword-container__resendOTP{
+  width: 2.5rem !important;
+  height: 0.85rem !important;
+  color: white;
+  background-color: var(--brandClr);
+  font-size: 0.40rem;
+  cursor: pointer;
+  padding: 0.01rem !important;
+  position: relative;
+  top: 0.5rem;
+  border: none;
+  border-radius: 0.1rem;
+  margin: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.resetPassword-container{
+  width: 9rem;
+  height: 7rem;
+  background-color: var(--pinkClr);
+  font-size: 0.45rem;
+  border-radius: 0.1rem;
+}
+
+.resetPassword-container__small{
+  position: relative;
+  left: 0.2rem;
+  bottom: 0.2rem;
+  font-size: 0.35rem;
+}
+  .resetPassword-container__submit{
+  width: 2rem !important;
+  height: 0.85rem !important;
+  color: white;
+  background-color: var(--brandClr);
+  font-size: 0.40rem;
+  cursor: pointer;
+  padding: 0.01rem !important;
+  position: relative;
+  left: 1.5rem;
+  border: none;
+  border-radius: 0.1rem;
+  outline: none;
+}
+.EnterOtpBtn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 88vh;
+}
+
+}
+

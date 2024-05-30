@@ -1,0 +1,509 @@
+
+  .role-text-h1{
+    font-size: 1rem;
+    color: var(--brandClr);
+    margin: 0.6rem 0rem 0.5rem 2rem;
+  }
+  .vaccine-container{
+
+    padding: 1rem;   
+    border-radius: 0.1rem;
+  }
+  .vaccine-container__department,
+  .vaccine-container__role,
+  .vaccine-container__job-id,
+  .vaccine-container__location,
+  .vaccine-container__experience,
+  .vaccine-container__qualification,
+  .vaccine-container__reports-to,
+  .vaccine-container__time-of-work,
+  .vaccine-container__salary,
+  .vaccine-container__company-profile,
+  .vaccine-container__job-description,
+  .vaccine-container__skill-required {
+      margin-bottom: 0.4rem;
+      font-size: 0.4rem;
+  }
+  
+  .vaccine-container__department h2,
+  .vaccine-container__role h2,
+  .vaccine-container__job-id h2,
+  .vaccine-container__location h2,
+  .vaccine-container__experience h2,
+  .vaccine-container__qualification h2,
+  .vaccine-container__reports-to h2,
+  .vaccine-container__time-of-work h2,
+  .vaccine-container__salary h2,
+  .vaccine-container__company-profile h2,
+  .vaccine-container__job-description h2,
+  .vaccine-container__skill-required h2 {
+      font-size: 0.5rem;
+      font-weight: 600;
+  }
+  
+  .vaccine-container__department p,
+  .vaccine-container__role p,
+  .vaccine-container__job-id p,
+  .vaccine-container__location p,
+  .vaccine-container__experience p,
+  .vaccine-container__qualification p,
+  .vaccine-container__reports-to p,
+  .vaccine-container__time-of-work p,
+  .vaccine-container__salary p,
+  .vaccine-container__company-profile p,
+  .vaccine-container__job-description p,
+  .vaccine-container__skill-required p {
+      font-size: 0.4rem;
+      margin-left: 0.2rem;
+  }
+  
+  .vaccine-container__job-description ,
+  .vaccine-container__skill-required {
+    margin-left: 1rem;
+    line-height: 0.8rem;
+  }
+  .vaccine-container__company-profile>h2{
+    line-height: 0.6rem;
+    margin-bottom: 0.3rem;
+    
+  }
+  .vaccine-container__job-description h2,
+  .vaccine-container__skill-required h2{
+   position: relative;
+   right: 1rem;
+  }
+  .vaccine-container__btn{
+  padding: 0.2rem;
+  background-color: var(--brandClr);
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 0.42rem;
+  font-weight: 500 !important;
+  border-radius: 0.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  }
+  
+  #myDialogs{
+  justify-self: center !important;
+  align-self: center !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: 0 0.0377rem 0.41rem 0 rgba(0, 0, 0, 0.07);
+  border-radius: 0.1rem;
+  }
+  .myDialog-containers{
+  width: 12rem;
+  height: 12rem;
+  }
+  .Open-Positions {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .career-title {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--brandClr);
+  }
+  #cancel-btn{
+    width: 0.7rem;
+    height: 0.7rem;
+    float: right;
+    position: relative;
+    top: 0.2rem;
+    right: 0.2rem;
+    cursor: pointer;
+}
+  .card {
+    border: 0.018rem solid #ccc;
+    border-radius: 0.094rem;
+    padding: 0.188rem;
+    margin: 0.188ren;
+    cursor: pointer;
+    width: 8.22rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.075rem;
+    box-shadow: 0 0.0377rem 0.41rem 0 rgba(0, 0, 0, 0.07);
+    border: none;
+  }
+  .cards-main-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .card__anchor {
+    text-align: center;
+    text-decoration: none;
+    color: var(--brandClr);
+  }
+  .card__image {
+    width: 1.6rem;
+    height: 1.6rem;
+    position: relative;
+    top: 0.25rem;
+  }
+  
+  .card__text-h3 {
+    font-size: 0.5rem;
+    position: relative;
+    top: 0.35rem;
+    color: var(--brandClr);
+  }
+  
+  .card__location {
+    font-size: 0.45rem;
+    position: relative;
+    bottom: 0rem;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 0.40rem;
+  }
+  .card__role-overview {
+    font-size: 0.35rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0.8rem;
+  }
+  .card__role-overview ul li{
+    list-style: none;
+  }
+  .card__read-more {
+    text-decoration: underline;
+    color: var(--brandClr);
+    font-size: 0.4rem;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+  
+ 
+    .career-title {
+      font-size: 0.85rem;
+      margin-top: 0.8rem;
+      margin-left: 1rem;
+      color: var(--brandClr);
+    }
+  
+    .card {
+      border: 0.018rem solid #ccc;
+      border-radius: 0.094rem;
+      padding: 0.188rem;
+      margin: 0.188ren;
+      cursor: pointer;
+      width: 7.22rem;
+      height: 6rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 0.075rem;
+      box-shadow: 0 0.0377rem 0.41rem 0 rgba(0, 0, 0, 0.07);
+      border: none;
+    }
+    
+    .cards-main-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      position: relative;
+      bottom: 1.5rem;
+    }
+    .job-description {
+      display: none;
+      margin-top: 0.188rem;
+    }
+    .card__anchor {
+      text-align: center;
+      text-decoration: none;
+      color: var(--brandClr);
+    }
+    .card__image {
+      width: 1.2rem;
+      height: 1.2rem;
+      position: relative;
+    }
+    .card__text-h3 {
+      font-size: 0.4rem;
+      position: relative;
+      bottom: 0rem;
+      position: relative;
+      top: 0.45rem;
+      color: var(--brandClr);
+    }
+    .card__location {
+      font-size: 0.35rem;
+      position: relative;
+      bottom: 0rem;
+      color: rgba(0, 0, 0, 0.5);
+      position: relative;
+      top: 0.45rem;
+    }
+    .card__role-overview {
+      font-size: 0.3rem;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 0.8rem;
+    }
+    .card__read-more {
+      text-decoration: underline;
+      color: var(--brandClr);
+      font-size: 0.3rem;
+    }
+    .vaccine-container{
+      margin-left: 0.75rem;
+      box-shadow: unset;
+    }
+    .cards-main-container>a{
+      text-decoration: none;
+    }
+    #myDialogs{
+      justify-self: center !important;
+      align-self: center !important;
+      border: none !important;
+      outline: none !important;
+      box-shadow: 0 0.0377rem 0.41rem 0 rgba(0, 0, 0, 0.07);
+      border-radius: 0.1rem;
+      width: 18rem;
+      height: 16rem;
+      overflow: hidden;
+      }
+      .career-Login{
+        width: 2rem !important;
+        height: 0.94rem !important;
+        color: white;
+        background-color: var(--brandClr);
+        font-size: 0.45rem;
+        font-weight: 500;
+        cursor: pointer;
+        padding: 0.01rem !important;
+        right: 2.2rem;
+        z-index: 9999;
+        border: none;
+        border-radius: 0.1rem;
+        position: fixed;
+        top: 0.5rem;
+      }
+      .vaccine-container__p{
+        line-height:0.6rem;
+        margin-top: 0.2rem;
+      }
+      .vaccine-container__p li{
+        padding: 0.15rem;
+      }
+      .careers__cards{
+        width: 7.22rem;
+        height: 6rem;
+        box-shadow: 0 0.0377rem 0.41rem 0 rgba(0, 0, 0, 0.07);
+        cursor: pointer;
+        border-radius: 0.1rem;
+      }
+      
+      .careers__card-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+      }
+      .careers__images{
+        width: 100%;
+        height: 3rem;
+        border-radius: 0.1rem 0.1rem 0 0;
+        object-fit: cover;
+      }
+    .careers__cards-h6{
+       font-size: 0.4rem;
+       margin-left: 0.3rem;
+       margin-top: 0.1rem;
+
+    }
+    .careers__cards-p{
+     font-size: 0.35rem;
+     width: 90%;
+     margin-left: 0.3rem;
+     margin-top: 0.1rem;
+     color: #777777;
+    }
+    .careers__banner-container{
+      margin-bottom: -2rem;
+    }
+    .careers__banner-img{
+      width: 100%;
+      height: 6.50rem;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 0.03rem 0.15rem 0px;
+    }
+    .careers__form-container{
+      width: 60%;      
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 0.34rem;
+      position: relative;
+      bottom: 5.3rem;
+      left: 1.35rem;
+    }
+    .careers__dropDown-select{
+      width: 6.45rem;
+      outline: none;
+      height: 1rem;
+      padding-left: 0.1rem;
+      border-radius: 0.1rem;
+     border: 0.01rem solid var(--brandClr); 
+     font-size: 0.4rem;
+     cursor: pointer;
+    }
+    .Open-Positions{
+      margin-left: 1.84rem;
+      position: relative;
+      bottom: 5.5rem;
+      font-size: 0.85rem;
+      font-weight: bold;
+      color: var(--brandClr);
+      font-weight: bold;
+    }
+    .careers__FindJob-btn{
+      width: 3.15rem;
+      height: 1rem;
+      background-color: var(--brandClr);
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 0.5rem;
+      border-radius: 0.1rem;
+    }
+    .reasonForApplying-container{
+      width: 12rem;
+      height: 8.9rem;
+      background-color: var(--pinkClr);
+      font-size: 0.45rem;
+      border-radius: 0.1rem;
+    }
+    .reasonForApplying-container form{
+      margin-left: 1rem;
+      margin-top: 0.2rem;
+
+    }
+    .reasonForApplying-container h5{
+      color: var(--brandClr);
+      font-size: 0.6rem;
+      text-align: center;
+      padding-top: 0.4rem;
+    }
+    .reasonForApplying-container form input{
+      margin: 0rem !important;
+      
+    }
+    .reasonForApplying-container textarea{
+      margin-top: 0rem !important;
+      width: 10rem;
+      height: 3rem;
+      padding:0.2rem;
+    }
+    .reasonForApplying-btn{
+     border-radius: 0.1rem;
+     border: none !important;
+     background-color: var(--brandClr);
+     color: white;
+     font-size: 0.45rem;
+     width: 2rem !important;
+     cursor: pointer;
+     position: relative;
+     left: 4rem;
+     top: 0.5rem;
+    }
+    #myDialog1,#myDialog2 , #myDialog3,#myDialog4{
+      width: 24rem;
+      height: 12rem;
+      overflow: auto;
+      justify-self: center;
+      align-self: center;
+      border: none !important;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .myDialog-main-container{
+      display: flex;
+      align-items: center;
+      position: relative;
+      bottom: 3rem;
+    }
+    .myDialog-main-container img{
+      width: 0.8rem;
+      height: 0.8rem;
+      float: right;
+      cursor: pointer;
+      margin: 0.25rem;
+  }
+
+  .myDialog-main-container h5{
+    font-weight: 500;
+    font-size: 0.5rem;
+    padding: 0.6rem .85rem 0rem;  
+  }
+  .myDialog-main-container p{
+    font-size: 0.35rem;
+    padding: 0.2rem 0.2rem 0rem 0.85rem;  
+  }
+  .myDialog-main-container__p{
+    font-weight: 600;
+    padding-top: 0.5rem !important;
+  }
+
+
+
+  .WeAreHiring-container{
+  background-image: url(../../../public/assets/WeAreHiring.webp);
+  background-size: cover;
+  height: 3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+    
+  }
+  .WeAreHiring-container__p{
+    font-size: 1.5rem ;
+    padding-top: 0.3rem;
+    color: white;
+    text-align: center !important;
+  font-weight: 600;
+  }
+
+  .overlay-visible {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.611);
+    z-index: 999;
+  }
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 88vh;
+  }
+  
+  }
+
+
+
+
+
+  
+  
+  
+
+  
+  

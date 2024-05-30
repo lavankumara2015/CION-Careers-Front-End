@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  font-family: "Source Sans 3", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  font-size: 5.31vw;
+}
+
+:root {
+  --brandClr: #802a8f;
+  --pinkClr: #f0d0dd;
+  --pinkClr2: #f0d0dc;
+  --blackColor: #000;
+  --whiteColor: #fff;
+  --brandclr: #802a8f;
+  --whycioncardbg: #d37fa0;
+  --colorBlack: #444444;
+
+}
+.main-app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+::-webkit-scrollbar{
+  width: 0.15rem;
+  
+}
+
+::-webkit-scrollbar-track{
+
+}
+::-webkit-scrollbar-thumb{
+  background-color:var(--brandClr) !important;
+border-radius: 1rem !important;
+
+}
+.role-text-h1{
+  font-size: 1rem;
+  color: var(--brandClr);
+  margin: 0.6rem 0rem 0.5rem 2rem;
+}
+.vaccine-container{
+  width: 80%;
+  margin-left: 2rem;
+  box-shadow: 0 0.0377rem 0.41rem 0 rgba(0, 0, 0, 0.07);
+  padding: 1rem;   
+  border-radius: 0.1rem;
+}
+.vaccine-container__department,
+.vaccine-container__role,
+.vaccine-container__job-id,
+.vaccine-container__location,
+.vaccine-container__experience,
+.vaccine-container__qualification,
+.vaccine-container__reports-to,
+.vaccine-container__time-of-work,
+.vaccine-container__salary,
+.vaccine-container__company-profile,
+.vaccine-container__job-description,
+.vaccine-container__skill-required {
+    margin-bottom: 0.4rem;
+    font-size: 0.4rem;
+}
+
+.vaccine-container__department h2,
+.vaccine-container__role h2,
+.vaccine-container__job-id h2,
+.vaccine-container__location h2,
+.vaccine-container__experience h2,
+.vaccine-container__qualification h2,
+.vaccine-container__reports-to h2,
+.vaccine-container__time-of-work h2,
+.vaccine-container__salary h2,
+.vaccine-container__company-profile h2,
+.vaccine-container__job-description h2,
+.vaccine-container__skill-required h2 {
+    font-size: 0.65rem;
+    font-weight: 600;
+}
+
+.vaccine-container__department p,
+.vaccine-container__role p,
+.vaccine-container__job-id p,
+.vaccine-container__location p,
+.vaccine-container__experience p,
+.vaccine-container__qualification p,
+.vaccine-container__reports-to p,
+.vaccine-container__time-of-work p,
+.vaccine-container__salary p,
+.vaccine-container__company-profile p,
+.vaccine-container__job-description p,
+.vaccine-container__skill-required p {
+    font-size: 0.4rem;
+    margin-left: 0.2rem;
+}
+
+.vaccine-container__job-description ,
+.vaccine-container__skill-required {
+  margin-left: 1rem;
+  line-height: 0.8rem;
+}
+.vaccine-container__company-profile>h2{
+  line-height: 0.6rem;
+  margin-bottom: 0.3rem;
+  
+}
+.vaccine-container__job-description h2,
+.vaccine-container__skill-required h2{
+ position: relative;
+ right: 1rem;
+}
+.vaccine-container__btn{
+padding: 0.2rem;
+background-color: var(--brandClr);
+color: white;
+border: none;
+outline: none;
+font-size: 0.5rem;
+border-radius: 0.1rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+font-weight: 600;
+cursor: pointer;
+}
+
+#myDialog{
+justify-self: center !important;
+align-self: center !important;
+border: none !important;
+outline: none !important;
+box-shadow: 0 0.0377rem 0.41rem 0 rgba(0, 0, 0, 0.07);
+border-radius: 0.1rem;
+}
+.myDialog-container{
+width: 12rem;
+height: 12rem;
+
+}
+.Open-Positions {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.career-title {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: var(--brandClr);
+}
+
+.card {
+  border: 0.018rem solid #ccc;
+  border-radius: 0.094rem;
+  padding: 0.188rem;
+  margin: 0.188ren;
+  cursor: pointer;
+  width: 8.22rem;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.075rem;
+  box-shadow: 0 0.0377rem 0.41rem 0 rgba(0, 0, 0, 0.07);
+  border: none;
+}
+.cards-main-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card__anchor {
+  text-align: center;
+  text-decoration: none;
+  color: var(--brandClr);
+}
+.card__image {
+  width: 1.6rem;
+  height: 1.6rem;
+  position: relative;
+  top: 0.25rem;
+}
+
+.card__text-h3 {
+  font-size: 0.5rem;
+  position: relative;
+  top: 0.35rem;
+}
+
+.card__location {
+  font-size: 0.45rem;
+  position: relative;
+  bottom: 0rem;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 0.40rem;
+}
+.card__role-overview {
+  font-size: 0.35rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 0.8rem;
+}
+.card__read-more {
+  text-decoration: underline;
+  color: var(--brandClr);
+  font-size: 0.4rem;
+}
+
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 2.76vw;
+  }
+  .main-app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100% !important;
+  }
+  .Open-Positions {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .career-title {
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    color: var(--brandClr);
+  }
+
+  .card {
+    border: 0.018rem solid #ccc;
+    border-radius: 0.094rem;
+    padding: 0.188rem;
+    margin: 0.188ren;
+    cursor: pointer;
+    width: 7.22rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.075rem;
+    box-shadow: 0 0.0377rem 0.41rem 0 rgba(0, 0, 0, 0.07);
+    border: none;
+  }
+  .cards-main-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .job-description {
+    display: none;
+    margin-top: 0.188rem;
+  }
+  .card__anchor {
+    text-align: center;
+    text-decoration: none;
+    color: var(--brandClr);
+  }
+  .card__image {
+    width: 1.2rem;
+    height: 1.2rem;
+    position: relative;
+    top: 0.5rem;
+  }
+
+  .card__text-h3 {
+    font-size: 0.4rem;
+    position: relative;
+    bottom: 0rem;
+    position: relative;
+    top: 0.45rem;
+  }
+
+  .card__location {
+    font-size: 0.35rem;
+    position: relative;
+    bottom: 0rem;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 0.45rem;
+  }
+  .card__role-overview {
+    font-size: 0.3rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0.8rem;
+  }
+  .card__read-more {
+    text-decoration: underline;
+    color: var(--brandClr);
+    font-size: 0.3rem;
+  }
+
+  .vaccine-container{
+    margin-left: 4rem;
+  }
+
+
+}

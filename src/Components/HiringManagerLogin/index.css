@@ -1,0 +1,185 @@
+
+
+@media screen and (min-width: 768px) {
+
+.hiringManger-container{
+width: 8.5rem;
+height: 7.3rem;
+background-color: var(--pinkClr);
+font-size: 0.45rem;
+margin: auto;
+margin-top: 3rem;
+border-radius: 0.1rem;
+
+}
+.hiringManger-container form {
+    margin-left: 1.5rem;
+}
+.hiringManger-container form input {
+    margin: 0.25rem;
+    padding: 0.2rem;
+    width: 5rem;
+    height: 0.85rem;
+    
+}
+.hiringManger-container  form label {
+    font-size: 0.4rem;
+    position: relative;
+    top: 0.3rem;
+    left: 0.3rem;
+    font-weight: 600;
+  }
+.hiringManger-container__small{
+    position: relative;
+    left: 0.3rem;
+    bottom: 0.2rem;
+    font-size: 0.4rem;
+}
+.hiringManger-container__btn{
+    width: 2rem !important;
+    color: white;
+    background-color: var(--brandClr);
+    font-size: 0.4rem;
+    cursor: pointer;
+    padding: 0.01rem !important;
+    position: relative;
+    left: 1.5rem;
+    bottom: 0.3rem;
+    outline: none;
+}
+
+.hiringManger-container__h2{
+    color: var(--brandClr);
+    font-size: 0.6rem;
+    text-align: center;
+    padding-top: 0.4rem;
+    
+}
+.hmDashBoard-container{
+    color: var(--brandClr);
+    text-align: center;
+    padding-top: 0.4rem;
+}
+.hmDashBoard-container img{
+    cursor: pointer;
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.35rem;
+}
+.hmDashBoard-container__img1{
+    width: 2.3rem !important;
+    height: 1.1rem !important;
+    position: relative;
+    left: 0.7rem;
+    bottom: 0.07rem;
+    margin-left: 24.5rem !important;
+
+}
+.hmDashBoard-container{
+ display: flex;
+ justify-content: start;
+ align-items: center;
+ margin-top: 0.45rem;
+ margin-left: 1rem;
+}
+
+.hmDashBoard-containerBtn 
+, .CareerListBtn,
+.redirectToApplications-container__Btn{
+    padding: 0.18rem;
+    background-color: var(--brandClr);
+    color: white;
+    border: none;
+    font-size: 0.45rem;
+    border-radius: 0.1rem;
+    cursor: pointer;
+    z-index: 9999;
+    font-weight: 500;
+    float: right;
+    position: relative;
+    right: 0.98rem;
+    bottom: 3.5rem;
+    outline: none;
+}
+.CareerListBtn{
+    bottom: 3.65rem !important;
+}
+.career-main-container{
+    color: var(--brandClr);
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+ .ag-header-cell{
+  background-color: var(--brandClr);
+  color: white;
+  font-size: 0.4rem;
+  font-size: 0.47rem !important;
+  border: solid 1px #000 !important;
+  font-weight: 500 !important;
+  border-bottom: none !important ;
+  }
+
+.ag-ltr .ag-cell {
+    color: #000 !important;
+    font-size: 0.40rem !important;
+    border: solid 1px #000 !important;
+    font-weight: 500 !important;
+  }
+
+ .ag-theme-quartz, .ag-theme-quartz-dark {
+    --ag-background-color: #f9f9f9 !important;
+    --ag-header-background-color: #80288f !important;
+    --ag-border-color: 1px solid #80288f !important;
+    --ag-secondary-border-color: solid 1px #80288f !important;
+    --ag-icon-font-color: #80288f !important;
+    --ag-row-hover-color: rgba(241, 241, 241, 0.89) !important;
+    --ag-input-border-color: #80288f !important;
+    --ag-input-color: #000 !important;
+  }
+   .Toastify__toast-container{
+    font-size: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .ag-ltr .ag-cell {
+    border-radius: none !important;
+  }
+  .careers-main-container__agGrid .ag-root-wrapper 
+  {
+    height: 10rem !important;
+    margin-left: 0.5rem;
+    border: solid 1px #000 !important;
+    border-radius: none !important;
+  }
+  .redirectToApplications-container h5{
+    color: var(--brandClr);
+    font-size: 0.80rem;
+    padding-top: 0.3rem;
+    text-align: center;
+    position: relative;
+    top: 0.5rem;
+  }
+  .redirectToApplications-container__Btn{
+    bottom: 2.85rem !important;
+  }
+  .redirectToApplications-container .ag-root-wrapper{
+    height: 10rem !important;
+  }
+ .CareerListSelect{
+  background-color: var(--brandClr);
+  position: relative;
+  bottom: 4.6rem;
+  left: 0.5rem;
+  color: white;
+ }
+ .role-id-cell{
+  text-decoration: underline;
+ }
+ .ag-header-cell-text, .ag-icon-menu {
+  color: #fff !important;
+}
+
+
+}
