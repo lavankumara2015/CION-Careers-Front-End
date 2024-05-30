@@ -411,7 +411,7 @@ function Careers() {
             bottom: "2rem",
           }}
         >
-          No jobs Found
+          No Jobs Found
         </p>
       )}
       <div className="WeAreHiring-container">

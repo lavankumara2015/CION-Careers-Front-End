@@ -168,11 +168,16 @@ border-radius: 0.1rem;
     height: 10rem !important;
   }
  .CareerListSelect{
-  background-color: var(--brandClr);
   position: relative;
-  bottom: 4.6rem;
+  bottom: 4.7rem;
   left: 0.5rem;
-  color: white;
+  color: var(--brandClr);
+  font-weight: 500;
+  font-size: 0.4rem;
+  outline: none !important;
+  padding: 0rem 0.2rem;
+  border: 1px solid var(--brandClr);
+  cursor: pointer;
  }
  .role-id-cell{
   text-decoration: underline;
